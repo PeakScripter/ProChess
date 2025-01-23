@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_gradient">
+
+    <!-- Game ID Display -->
+    <TextView
+        android:id="@+id/gameIdDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Game ID: "
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Game ID Input -->
+    <EditText
+        android:id="@+id/gameIdInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Game ID to Join"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="#BDBDBD"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Create Game Button -->
+    <Button
+        android:id="@+id/createGameButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Game"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_gradient"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Join Game Button -->
+    <Button
+        android:id="@+id/joinGameButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Join Game"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_gradient" />
+</LinearLayout>

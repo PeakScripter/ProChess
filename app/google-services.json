@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "307754582583",
+    "project_id": "prochess-7da3e",
+    "storage_bucket": "prochess-7da3e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307754582583:android:b7f9af902c6148ad5e35b2",
+        "android_client_info": {
+          "package_name": "com.peakscripter.prochess"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC629qDtwXBvIkrrldoYsHqraXlya9PGpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

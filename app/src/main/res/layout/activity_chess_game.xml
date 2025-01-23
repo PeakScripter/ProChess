@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/background_gradient">
+
+    <!-- Opponent Info Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:background="@drawable/info_section_gradient">
+
+        <TextView
+            android:id="@+id/opponent_username"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/opponent_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginEnd="8dp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/opponent_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="00:00"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <!-- Chessboard -->
+    <GridLayout
+        android:id="@+id/chessboard"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/chessboard_background"
+        android:padding="8dp"
+        android:elevation="4dp" />
+
+    <!-- Player Info Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:background="@drawable/info_section_gradient">
+
+        <TextView
+            android:id="@+id/player_username"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/player_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginEnd="8dp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/player_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="00:00"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <!-- Game Controls -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/offer_draw_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Offer Draw"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#FF69B4"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/resign_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resign"
+            android:backgroundTint="#FF69B4"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

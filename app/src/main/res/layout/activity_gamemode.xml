@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/background_gradient">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Game Mode"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/offlineButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Offline"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_gradient"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/onlineButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Online"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_gradient"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/aiButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play vs AI"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_gradient"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/viewProfileButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Profile"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_gradient"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/friendListButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Friends List"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_gradient"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/addFriendButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Friend"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_gradient"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/acceptRequestButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accept Request"
+        android:padding="16dp"
+        android:background="@drawable/button_gradient"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+</LinearLayout>
